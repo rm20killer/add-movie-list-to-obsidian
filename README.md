@@ -14,20 +14,27 @@ Then do `npm i` and `node index.js`
 
 In the file you want to view the movies put in:
 
+On top of file
 ```
+
 ---
 cssClasses: 
 - cards
 - cards-cover
 ---
-\`\`\`dataview
+
+```
+
+anyone else in file (remove "<") 
+
+```
+< ```dataview
 TABLE without ID
 	("![]("+image +")") as Cover,
 	file.link,
 	Director,
 	ReleaseDate,
 	(padleft("", Rating/2, "✰")) as ratings
-from #in/movies
-\`\`\`
-
+from #in/movies 
+<```
 ```
