@@ -20,7 +20,7 @@ cssClasses:
 - cards
 - cards-cover
 ---
-```dataview
+\`\`\`dataview
 TABLE without ID
 	("![]("+image +")") as Cover,
 	file.link,
@@ -28,6 +28,6 @@ TABLE without ID
 	ReleaseDate,
 	(padleft("", Rating/2, "✰")) as ratings
 from #in/movies
-```
+\`\`\`
 
 ```
