@@ -1,5 +1,5 @@
 
 
-const template = require('./code/template');
-
-template.execute();
+const movie = require('./code/movie');
+const tv = require('./Code/Tv')
+tv.execute();
